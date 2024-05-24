@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'rose': '#C8A2C8',
+        'fundo': 'rgb(255, 255, 240)'
+      },
+      fontFamily:{
+        Montserrat: ['Montserrat', 'sans-serif'],
+        'Montserrat-semibold': ['Montserrat-semibold', 'sans-serif']
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
